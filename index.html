@@ -1,164 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
-
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        .internal-example {
-          letter-spacing: 2px;
-        }
-    </style>
 </head>
 
 <body>
 
-<header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<h1>Tolbasy Aliakbar</h1>
+<h2>My First Webpage</h2>
 
-    <div class="hero">
-        <div>
-            <p class="internal-example">AITU • SECOND-YEAR STUDENT</p>
+<p>
+    I am 19 years old and study at Astana IT University.
+    I am currently a second-year student.
+</p>
 
-            <h1 id="main-heading">Tolbasy Aliakbar</h1>
-            <h2>My First Webpage</h2>
+<p>
+    I like playing volleyball in my free time.
+    My goal is to improve my web development skills.
+</p>
 
-            <p style="color: lightblue;">
-                Welcome! This paragraph uses inline CSS.
-            </p>
+<img
+        src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=600&q=80"
+        width="300"
+>
 
-            <button onclick="alert('Thanks for visiting my webpage!')">
-                Click Me
-            </button>
-        </div>
+<hr>
 
-        <img
-                src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=600&q=80"
-                alt="Volleyball"
-        >
-    </div>
-</header>
+<h2>My Hobbies</h2>
 
-<main>
+<ol>
+    <li>Playing volleyball</li>
+    <li>Learning web development</li>
+    <li>Watching technology videos</li>
+</ol>
 
-    <section id="about" class="card">
-        <h3>About Me</h3>
+<h2>Favorite Websites</h2>
 
-        <p>
-            I am 19 years old and study at Astana IT University.
-            I am currently a second-year student. I love playing volleyball
-            in my free time because it keeps me active and helps me work as part of a team.
-        </p>
+<ul>
+    <li>
+        <a href="https://www.youtube.com/">YouTube</a>
+    </li>
 
-        <p class="highlight">
-            My goal is to improve my web development skills and build useful digital projects.
-        </p>
+    <li>
+        <a href="https://www.w3schools.com/">W3Schools</a>
+    </li>
 
-        <p>My mood today: motivated 💪 excited 🚀 and positive 😄.</p>
+    <li>
+        <a href="https://github.com/">GitHub</a>
+    </li>
+</ul>
 
-        <div class="lists">
-            <div>
-                <h3>My Hobbies</h3>
-                <ol>
-                    <li>Playing volleyball</li>
-                    <li>Learning web development</li>
-                    <li>Watching technology videos</li>
-                </ol>
-            </div>
+<hr>
 
-            <div>
-                <h3>Favorite Websites</h3>
-                <ul>
-                    <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
-                    <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
-                    <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+<h2>Weekly Class Schedule</h2>
 
-    <section id="schedule" class="card">
-        <h2>Weekly Class Schedule</h2>
+<table>
+    <tr>
+        <th>Subject</th>
+        <th>Day</th>
+        <th>Time</th>
+    </tr>
 
-        <table>
-            <tr>
-                <th>Subject</th>
-                <th>Day</th>
-                <th>Time</th>
-            </tr>
-            <tr>
-                <td>Web Technologies</td>
-                <td>Monday</td>
-                <td>14:00–16:00</td>
-            </tr>
-            <tr>
-                <td>Database Systems</td>
-                <td>Tuesday</td>
-                <td>16:00–18:00</td>
-            </tr>
-            <tr>
-                <td>Computer Networks</td>
-                <td>Wednesday</td>
-                <td>14:00–16:00</td>
-            </tr>
-            <tr>
-                <td>Data Structures</td>
-                <td>Thursday</td>
-                <td>16:00–18:00</td>
-            </tr>
-            <tr>
-                <td>English for IT</td>
-                <td>Friday</td>
-                <td>14:00–15:30</td>
-            </tr>
-        </table>
-    </section>
+    <tr>
+        <td>Web Technologies</td>
+        <td>Monday</td>
+        <td>14:00-16:00</td>
+    </tr>
 
-    <section class="card">
-        <h2>CSS Positioning and Float Demo</h2>
+    <tr>
+        <td>Database Systems</td>
+        <td>Tuesday</td>
+        <td>16:00-18:00</td>
+    </tr>
 
-        <div class="static-box">Static position</div>
-        <div class="relative-box">Relative position</div>
+    <tr>
+        <td>Computer Networks</td>
+        <td>Wednesday</td>
+        <td>14:00-16:00</td>
+    </tr>
 
-        <div class="float-left">Float left</div>
-        <div class="float-right">Float right</div>
+    <tr>
+        <td>Data Structures</td>
+        <td>Thursday</td>
+        <td>16:00-18:00</td>
+    </tr>
 
-        <div class="clear-box">
-            Cleared content: no overlapping boxes.
-        </div>
+    <tr>
+        <td>English for IT</td>
+        <td>Friday</td>
+        <td>14:00-15:30</td>
+    </tr>
+</table>
 
-        <div class="absolute-box">Absolute</div>
-    </section>
+<hr>
 
-    <section id="contact" class="card">
-        <h2>Contact Form</h2>
+<h2>Contact Me</h2>
 
-        <form>
-            <label>Name</label>
-            <input type="text" placeholder="Your name" required>
+<form>
+    <label>Name:</label>
+    <input type="text" value="Write your name">
 
-            <label>Email</label>
-            <input type="email" placeholder="you@example.com" required>
+    <input type="submit" value="Submit">
+</form>
 
-            <label>Favorite Color</label>
-            <input type="color" value="#63d8e8">
+<br>
 
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+<button type="button">Click Me!</button>
 
-</main>
+<hr>
 
-<footer>
-    Created by Tolbasy Aliakbar • Assignment #1: HTML & CSS Basics
-</footer>
+<p>
+    Created by Tolbasy Aliakbar
+</p>
 
 </body>
+
 </html>
